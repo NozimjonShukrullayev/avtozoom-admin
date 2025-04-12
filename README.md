@@ -1,9 +1,36 @@
-# React + Vite
+# Avtozoom Admin Panel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+A modern admin dashboard for managing vehicle inventory, dealership operations, and customer relationships. Built with a powerful combination of React, Chakra UI, and Redux Toolkit for optimal performance and user experience.
 
-Currently, two official plugins are available:
+## Key Features
+- Case Management System
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# avtozoom-admin
+- User Access Control
+
+- Document Management
+
+- Analytics Dashboard
+
+- Responsive Design
+
+- Technology Stack
+
+## Technology Highlights
+- UI Framework: Chakra UI with Emotion for styling
+
+- State Management: Redux Toolkit + React Query
+
+- Authentication: JWT token handling
+
+- API Client: Axios with custom interceptors
+
+- Notifications: Toast system for admin alerts
+
+
+## Production 
+- 👉 [Preview](https://adminpanel-three-woad.vercel.app)
+
+## Screenshots
+- ![image]![image](https://github.com/user-attachments/assets/1559967e-532f-4033-9012-0b4c0c944be0)
+
