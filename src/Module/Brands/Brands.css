@@ -1,0 +1,48 @@
+.brand {
+  margin-top: 140px;
+  margin-right: 50px;
+  background-color: #fff;
+  width: 100%;
+  max-width: 1600px;
+  padding: 15px;
+}
+
+.brand-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.brand-form {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  border: 1px solid #000;
+}
+
+.brand-icon {
+  margin-left: 10px;
+}
+.brand-input {
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  background: none;
+}
+
+.brand-btn {
+  outline: none;
+  border: none;
+  background: blue;
+  padding: 10px 10px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.brand-table {
+  width: 100%;
+  max-width: 1600px;
+  padding: 15px;
+}

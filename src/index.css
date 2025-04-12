@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  border: 8px solid #f3f3f3; /* Light grey */
+  border-top: 8px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite; /* Rotate animation */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+body{
+  overflow-x: hidden;
+  background-color: #f1f1f1;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --color-primary: #2c14cb;
+  --color-primary-hover: #0000af;
+  --color-delete: #d80c0c;
+  --color-delete-hover: #a10808;
+}
+
+main {
+  border: none !important;
+}
+
+button.submit__btn {
+  width: 100px;
+  border: none;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 10px 18px;
+  border-radius: 5px;
+  transition: all 0.2s;
+  background-color: var(--color-primary);
+}
+.edit__btn, .delete__btn{
+  padding: 10px 15px !important;
+}
+.models__table thead,
+button.edit__btn {
+  background-color: var(--color-primary) !important;
+}
+button.submit__btn:hover,
+button.edit__btn:hover {
+  background-color: var(--color-primary-hover) !important;
+}
+button.delete__btn {
+  background-color: #d80c0c !important;
+}
+button.delete__btn:hover {
+  background-color: #a10808 !important;
+}
+
+.models__section {
+  min-height: 100vh;
+  position: relative;
+  justify-content: end;
+  padding: 150px 20px 50px 20px;
+}
+.create__models__box {
+  padding: 25px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0.5px 0.5px 5px 0.5px #6363634b;
+}
+.create__models__box h2 {
+  margin-bottom: 20px;
+}
+.inputs__grid {
+  display: grid;
+  gap: 15px 25px;
+  grid-template-rows: 1fr auto;
+  grid-template-columns: 40% auto;
+}
+#edit-model-box,
+.create__models__box {
+  top: 50%;
+  left: 55%;
+  width: 60%;
+  position: fixed;
+  transition: all 2s !important;
+  background-color: #fff;
+  z-index: 15000 !important;
+  transform: translate(-50%, -50%);
+}
+button.create__btn {
+  position: absolute;
+  right: 21px;
+  top: 110px;
+}

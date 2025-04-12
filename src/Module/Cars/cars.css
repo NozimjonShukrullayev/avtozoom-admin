@@ -1,0 +1,32 @@
+.create-cars-contetnt{
+  width: 100%;
+  min-height: 80vh;
+  background-color: #ffffff;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+}
+.cars-btns{
+  margin: 50px 0;
+}
+.create-cars-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.create-body-cars{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 30px;
+  row-gap: 30px;
+}
+
+@keyframes shine {
+  to {
+    background-position-x: -200%;
+  }
+}
+
+

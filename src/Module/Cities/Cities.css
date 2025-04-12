@@ -1,0 +1,119 @@
+.cities-container{
+    margin-top: 150px;
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+}
+.cities-table{
+    height: 70vh;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.search-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 50%;
+    gap: 1rem;
+    border:1px solid #aaa;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+.search-container .search-icon{
+    color: #7a7777;
+    font-size: 20px;
+}
+.search-container input{
+    outline: none;
+    border: none;
+    width: 90%;
+    background: none;
+}
+.cities-container .table{
+    width: 100%;
+}
+.table-img{
+    width: 80px;
+    height: 50px;
+}
+.search-add_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.add_btn{
+    background-color: #3498DB;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* modal */
+.modal {
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+    max-width: 600px;
+    position: relative;
+}
+
+.modal-header h2 {
+    margin-top: 0;
+}
+
+.modal-header button {
+    background-color: transparent;
+    border: none;
+    color: #000;
+    float: right;
+    font-size: 40px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+.modal-body {
+    padding-top: 20px;
+}
+.form-item {
+    margin-bottom: 15px;
+}
+.form-item label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+.form-button {
+    text-align: right;
+}
+
+.prev-image{
+    width: 100px;
+    height: 100px;
+}
+.prev-image .edit-images{
+    width: 100%;
+    height: 100%;
+}

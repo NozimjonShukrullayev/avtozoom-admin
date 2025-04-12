@@ -1,0 +1,58 @@
+.login {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.login-form {
+  margin: 0 auto;
+  max-width: 550px;
+  background-color: #fff;
+  padding: 35px 20px;
+  margin-top: 140px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.login-title {
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.login-inp {
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 10px 35px 10px 10px;
+  background-color: #f2f3f4;
+}
+
+.login-box {
+  position: relative;
+}
+
+.login-box:not(:first-child) {
+  margin-bottom: 10px;
+}
+
+.login-icon {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.login-btn {
+  width: 100%;
+  margin-top: 10px;
+  outline: none;
+  background-color: #5b00cf;
+  color: #f0f8ff;
+  padding: 10px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.login-error {
+  margin-top: 20px;
+  color: red;
+}
